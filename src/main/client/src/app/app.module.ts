@@ -5,12 +5,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ScratchComponent } from './scratch/scratch.component';
 import {HttpClientModule} from "@angular/common/http";
+import { PurchasesComponent } from './purchases/purchases.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ScratchComponent
+    ScratchComponent,
+    PurchasesComponent
   ],
   imports: [
     BrowserModule,

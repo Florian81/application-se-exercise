@@ -1,0 +1,27 @@
+<p>
+  purchases works!
+</p>
+
+<table>
+  <tr>
+    <td>ID</td>
+    <td>Procurement Manager</td>
+    <td>Product Name</td>
+    <td>Date of purchase</td>
+    <td>Price</td>
+    <td>Actions</td>
+  </tr>
+  <tr *ngFor="let purchase of purchases">
+    <td>{{purchase.id}}</td>
+    <td><input [value]="purchase.procmanname" name="procmanname"></td>
+    <td>{{purchase.prodname}}</td>
+    <td>{{purchase.date}}</td>
+    <td>{{purchase.price}}</td>
+    <td>
+      <button (click)="onPurchaseUpdateClicked(purchase)">TODO: Update</button>
+      <button (click)="onPurchaseDeleteClicked(purchase)">Delete</button>
+    </td>
+  </tr>
+</table>
+
+<p>Sum of all purchases: {{ purchaseSum }}</p>

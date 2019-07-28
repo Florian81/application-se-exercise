@@ -1,0 +1,45 @@
+[33mcommit 248a41cc07d8c79ccaf216c424112e9554bb5691[m[33m ([m[1;36mHEAD -> [m[1;32msolutionFlorian[m[33m)[m
+Author: Florian <florian.privat@gmail.com>
+Date:   Fri Jul 26 18:46:26 2019 +0200
+
+    b4 playing around with the confinale-example. this is a restore point
+
+[33mcommit 422df8414c8d5903220aff067c91061846cc1a52[m
+Author: Florian <florian.privat@gmail.com>
+Date:   Fri Jul 26 18:15:26 2019 +0200
+
+    Added model to documentation
+
+[33mcommit 81e2b3fee7b49f307d5d61d57a0c57b4ca98935d[m
+Author: Florian <florian.privat@gmail.com>
+Date:   Thu Jul 25 23:58:09 2019 +0200
+
+    time recording
+
+[33mcommit 21dc1fd0c757ea4349dad439cced9b305fc6ba30[m
+Author: Florian <florian.privat@gmail.com>
+Date:   Thu Jul 25 23:55:03 2019 +0200
+
+    Added documentation folder, began documentation and concept
+
+[33mcommit 8eef8ab5402a44777acfbcffcca9a7e549dfc770[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Florian <florian.privat@gmail.com>
+Date:   Wed Jul 24 21:52:04 2019 +0200
+
+    Initial commit after testing scratch-component in vs code and eclipse
+
+[33mcommit 9b40fd70b85b863b803fd1c90e07b68d60ca9f7c[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Michael Weiss <code@mweiss.ch>
+Date:   Tue Mar 19 15:10:44 2019 +0100
+
+    Change wrong folder name in Readme (#1)
+    
+    * Change Wrong Root Folder Name in Description
+    
+    * Update README.md
+
+[33mcommit d176fb0af3089bd560f56b4d5a6cf2f561c154df[m
+Author: David Graf <david.graf@confinale.ch>
+Date:   Fri Nov 16 13:56:38 2018 +0100
+
+    first commit

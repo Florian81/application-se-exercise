@@ -9,3 +9,9 @@ INSERT INTO "users"("id","username", "password", "enabled") VALUES (5, 'martin',
 INSERT INTO "role"("id", "rolename", "user_id") VALUES (1, 'ROLE_ADMIN', 1);
 INSERT INTO "role"("id", "rolename", "user_id") VALUES (2, 'ROLE_USER', 1);
 INSERT INTO "role"("id", "rolename", "user_id") VALUES (3, 'ROLE_USER', 2);
+
+-- purchase
+INSERT INTO "purchases"("id", "procmanname", "prodname", "date", "price") VALUES (1, 'Dagobert Duck', 'A bar of gold', '28.07.2019', '4500');
+INSERT INTO "purchases"("id", "procmanname", "prodname", "date", "price") VALUES (2, 'Daisy Duck', 'A necklace', '25.07.2019', '249.99');
+INSERT INTO "purchases"("id", "procmanname", "prodname", "date", "price") VALUES (3, 'Mickey Mouse', 'A detectives outfit', '28.07.2019', '500');
+INSERT INTO "purchases"("id", "procmanname", "prodname", "date", "price") VALUES (4, 'Dagobert Duck', 'A secure vault', '28.07.2019', '999.42');
