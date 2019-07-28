@@ -11,7 +11,9 @@ INSERT INTO "role"("id", "rolename", "user_id") VALUES (2, 'ROLE_USER', 1);
 INSERT INTO "role"("id", "rolename", "user_id") VALUES (3, 'ROLE_USER', 2);
 
 -- purchase
-INSERT INTO "purchases"("id", "procmanname", "prodname", "date", "price") VALUES (1, 'Dagobert Duck', 'A bar of gold', '28.07.2019', '4500');
-INSERT INTO "purchases"("id", "procmanname", "prodname", "date", "price") VALUES (2, 'Daisy Duck', 'A necklace', '25.07.2019', '249.99');
-INSERT INTO "purchases"("id", "procmanname", "prodname", "date", "price") VALUES (3, 'Mickey Mouse', 'A detectives outfit', '28.07.2019', '500');
-INSERT INTO "purchases"("id", "procmanname", "prodname", "date", "price") VALUES (4, 'Dagobert Duck', 'A secure vault', '28.07.2019', '999.42');
+INSERT INTO "purchases"("id", "procmanname", "totalPerProcmanname", "prodname", "date", "price") VALUES (1, 'Dagobert Duck', '0', 'A bar of gold', '28.07.2019', '4500');
+INSERT INTO "purchases"("id", "procmanname", "totalPerProcmanname", "prodname", "date", "price") VALUES (2, 'Daisy Duck', '0', 'A necklace', '25.07.2019', '249.99');
+INSERT INTO "purchases"("id", "procmanname", "totalPerProcmanname", "prodname", "date", "price") VALUES (3, 'Mickey Mouse', '0', 'A detectives outfit', '28.07.2019', '500');
+INSERT INTO "purchases"("id", "procmanname", "totalPerProcmanname", "prodname", "date", "price") VALUES (4, 'Dagobert Duck', '0', 'A secure vault', '28.07.2019', '999.42');
+INSERT INTO "purchases"("id", "procmanname", "totalPerProcmanname", "prodname", "date", "price") VALUES (5, 'Dagobert Duck', '0', 'A treasure map', '20.07.2019', '25000');
+INSERT INTO "purchases"("id", "procmanname", "totalPerProcmanname", "prodname", "date", "price") VALUES (6, 'Mickey Mouse', '0', 'Information about Carlos next coup', '28.07.2019', '199');

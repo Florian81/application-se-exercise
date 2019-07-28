@@ -17,16 +17,18 @@ public class PurchaseDto {
 
 	private Integer id;
 	private String procmanname;
+	private Float totalperprocmanname;
 	private String prodname;
 	private String date;
 	private Float price;
 	
 	
 	
-	public PurchaseDto(Integer id, String procmanname, String prodname, String date, Float price) {
+	public PurchaseDto(Integer id, String procmanname, Float totalperprocmanname, String prodname, String date, Float price) {
 		super();
 		this.id = id;
 		this.procmanname = procmanname;
+		this.totalperprocmanname = totalperprocmanname;
 		this.prodname = prodname;
 		this.date = date;
 		this.price = price;

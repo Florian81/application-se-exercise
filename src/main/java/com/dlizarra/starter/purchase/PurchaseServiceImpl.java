@@ -27,8 +27,8 @@ public class PurchaseServiceImpl implements PurchaseService {
 
 	@Transactional
 	@Override
-	public void updatePurchase(Integer id, String procmanname, String prodname, String date, Float price) {
-		Purchase purchaseToUpdate = new Purchase(id, procmanname, prodname, date, price);
+	public void updatePurchase(Integer id, String procmanname, Float totalperprocmanname, String prodname, String date, Float price) {
+		Purchase purchaseToUpdate = new Purchase(id, procmanname, 0F, prodname, date, price);
 		System.out.println("Updating id " + id);		// TODO remove or replace by real logging
 		System.out.println("Values " + purchaseToUpdate);
 		this.purchaseRepository.save(purchaseToUpdate);

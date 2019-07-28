@@ -28,6 +28,9 @@ public class Purchase {
 	private String procmanname;
 	
 	@Column
+	private Float totalperprocmanname;
+	
+	@Column
 	private String prodname;
 	
 	@Column
@@ -42,10 +45,17 @@ public class Purchase {
 
 	
 	
-	public Purchase(Integer id, String procmanname, String prodname, String date, Float price) {
+	public Purchase(
+			Integer id,
+			String procmanname,
+			Float totalperprocmanname,
+			String prodname,
+			String date,
+			Float price) {
 		super();
 		this.id = id;
 		this.procmanname = procmanname;
+		this.totalperprocmanname = totalperprocmanname;
 		this.prodname = prodname;
 		this.date = date;
 		this.price = price;

@@ -63,4 +63,15 @@ export class PurchasesComponent implements OnInit {
       )
   }
 
+  addMockupData() {
+    console.log("Adding some random data");
+
+    this.httpClient.get<Purchase[]>("api/addpurchase")
+      .subscribe(
+        resp => { this.purchases = resp; }
+      )
+  }
+
+
+
 }
